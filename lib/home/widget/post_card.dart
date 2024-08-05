@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:somnio/app/resources/images.dart';
+import 'package:somnio/app/utils/string_extension.dart';
 import 'package:somnio/l10n/l10n.dart';
 
 class PostCard extends StatelessWidget {
@@ -57,14 +58,14 @@ class PostCard extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    title,
+                    title.capitalize,
                     style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 28,
                     ),
                   ),
                   Text(
-                    title,
+                    body.capitalize,
                     style: const TextStyle(fontSize: 22),
                   ),
                   Container(

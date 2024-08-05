@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:somnio/app/utils/string_extension.dart';
 import 'package:somnio/home/home.dart';
 
 class PostsView extends StatefulWidget {
@@ -50,8 +49,8 @@ class _PostsViewState extends State<PostsView> {
                 return Container(
                   margin: const EdgeInsets.only(top: 10),
                   child: PostCard(
-                    title: posts[index].title.capitalize,
-                    body: posts[index].body.capitalize,
+                    title: posts[index].title,
+                    body: posts[index].body,
                   ),
                 );
               }
