@@ -1,5 +1,5 @@
 extension StringExtension on String {
-  /// Obtiene la primera letra en mayúscula y el resto en minúscula.
+  /// Gets the first letter in uppercase and the rest in lowercase.
   String get capitalize {
     return '${this[0].toUpperCase()}${substring(1).toLowerCase()}';
   }
