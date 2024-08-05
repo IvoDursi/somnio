@@ -1,0 +1,27 @@
+{
+    "@@example": "en",
+    "example": "Example",
+    "@example": {
+        "description": "App bar subtitle"
+    },
+    "friends": "Friends",
+    "@friends": {
+        "description": "Friends view"
+    },
+    "posts": "Posts",
+    "@posts": {
+        "description": "Posts view"
+    },
+    "community": "Community",
+    "@community": {
+        "description": "Community"
+    },
+    "readMore": "Read more ",
+    "@readMore": {
+        "description": "Read more"
+    },
+    "emptyFriends": "You don't have friends added yet",
+    "@emptyFriends": {
+        "emptyFriends": "Empty friends view"
+    }
+}

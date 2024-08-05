@@ -1,0 +1,27 @@
+{
+    "@@locale": "es",
+    "example": "Ejemplo",
+    "@example": {
+        "description": "App bar subtitle"
+    },
+    "friends": "Amigos",
+    "@friends": {
+        "description": "Friends view"
+    },
+    "posts": "Posteos",
+    "@posts": {
+        "description": "Posts view"
+    },
+    "community": "Comunidad",
+    "@community": {
+        "description": "Community"
+    },
+    "readMore": "Leer más ",
+    "@readMore": {
+        "description": "Read more"
+    },
+    "emptyFriends": "No tienes amigos agregados",
+    "@emptyFriends": {
+        "emptyFriends": "Empty friends view"
+    }
+}
