@@ -65,18 +65,25 @@ class PostCard extends StatelessWidget {
                   title,
                   style: const TextStyle(fontSize: 22),
                 ),
-                GestureDetector(
-                  onTap: (){
-                    //TODO: 
-                  },
-                  child: Row(
-                    children: [
-                      Text(l10n.readMore),
-                      const Icon(
-                        Icons.arrow_forward,
-                        size: 16,
-                      ),
-                    ],
+                Container(
+                  margin: const EdgeInsets.only(top: 10),
+                  child: GestureDetector(
+                    onTap: () {
+                      //TODO:
+                    },
+                    child: Row(
+                      children: [
+                        Text(
+                          l10n.readMore,
+                          style: const TextStyle(color: Colors.blue),
+                        ),
+                        const Icon(
+                          Icons.arrow_forward,
+                          size: 16,
+                          color: Colors.blue,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],
